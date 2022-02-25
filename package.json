@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "npm run build && node ./deploy/ghpages.js"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.0",
@@ -43,6 +44,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^7.0.0",
+    "gh-pages": "^3.2.3",
     "node-sass": "^4.12.0",
     "prettier": "^2.5.1",
     "prettier-eslint": "^13.0.0",
