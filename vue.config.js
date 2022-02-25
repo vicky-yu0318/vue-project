@@ -3,5 +3,5 @@
 module.exports = {
   // publicPath 為 project-name，根目錄地址為上傳的網域
   // publicPath: '/tea/'
-  publicPath: process.env.NODE_ENV === 'production' ? '/tea/' : '/'
+  publicPath: process.env.NODE_ENV === 'production' ? '/vue-project/' : '/'
 }
