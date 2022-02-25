@@ -203,6 +203,7 @@ export default {
       })
     },
     getProducts () {
+      this.randomProducts = []
       const api = `${process.env.VUE_APP_API}api/${process.env.VUE_APP_PATH}/products/all`
       this.$http
         .get(api)
@@ -238,6 +239,7 @@ export default {
         const num = getRandomInt(filterProducts.length)
         arrSet.add(num)
       }
+      this.randomProducts = []
       // (6) 目前arrSet有5個項目，順序隨機抓，放到randomProducts陣列，所以第一個項目是隨機的
       arrSet.forEach((i) => {
         this.randomProducts.push(filterProducts[i])
