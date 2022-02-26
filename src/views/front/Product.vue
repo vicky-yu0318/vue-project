@@ -79,7 +79,7 @@
         </ul>
       </div>
       <div class="image">
-        <img src="https://upload.cc/i1/2022/02/08/DEixKT.jpg" alt="" />
+        <img src="https://upload.cc/i1/2022/02/26/MfeoQn.jpg" alt="" />
       </div>
     </div>
   </section>
@@ -277,7 +277,6 @@ export default {
     },
     changeProduct (id) {
       this.$router.push(`/product/${id}`)
-      this.getProduct()
     }
   },
   watch: {
@@ -285,7 +284,6 @@ export default {
       handler (val) {
         if (val.name === 'Product') {
           this.currentProductId = this.$route.params.id
-          this.getProduct()
           setTimeout(() => {
             this.getProduct()
           }, 1000)

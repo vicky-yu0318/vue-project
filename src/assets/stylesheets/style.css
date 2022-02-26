@@ -1502,9 +1502,10 @@ input[type="search"]::-webkit-search-cancel-button {
     box-sizing: border-box;
 }
 .section-notice .content h3 {
-    color: var(--strong-color);
+    color: var(--main-color-strong);
     font-size: 25px;
     padding-bottom: 10px;
+    text-align: center;
 }
 .section-notice .notice-list {
     padding-left: 2em;
