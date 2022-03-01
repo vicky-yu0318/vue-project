@@ -52,7 +52,7 @@
                 </td>
                 <td>{{ item.product.title }}</td>
                 <td rowspan="2">
-                  小計{{ $filters.toCurrency(item.final_total) }}
+                  小計{{ $filters.toCurrency(Math.round(item.final_total)) }}
                 </td>
               </tr>
               <tr>
@@ -74,6 +74,7 @@
 <script>
 import Progressbar from '@/components/Progressbar.vue'
 import emitter from '@/methods/eventBus'
+import goTop from '@/methods/goTop'
 import { getDate, getTime } from '@/methods/time'
 
 export default {
@@ -101,7 +102,7 @@ export default {
           this.getOrder()
           setTimeout(() => {
             this.$router.push('/')
-          }, 13000)
+          }, 15000)
         } else {
           this.$httpMessageState(res, status)
         }
@@ -147,6 +148,7 @@ export default {
     }
   },
   mounted () {
+    goTop()
     this.completepay()
     emitter.emit('update-cart')
   }

@@ -72,8 +72,8 @@
           </caption>
           <tbody>
             <tr>
-              <th scope="row">小計</th>
-              <td>{{ $filters.toCurrency(Number(cart.total)) }}</td>
+              <th scope="row" width="60%">小計</th>
+              <td  width="40%">{{ $filters.toCurrency(Number(cart.total)) }}</td>
             </tr>
             <tr>
               <th scope="row">運費</th>

@@ -622,7 +622,7 @@ input[type="search"]::-webkit-search-cancel-button {
         font-size: 15vw;
     }
     .section-home .slide .content span {
-        font-size: 23px;
+        font-size: 21px;
     }
 }
 /* =========== index.html  section-introdcution ==========*/
@@ -1465,8 +1465,7 @@ input[type="search"]::-webkit-search-cancel-button {
     font-size: 20px;
     font-weight: 600;
     padding-bottom: 10px;
-    color: var(--strong-color);
-    text-decoration: underline;
+    color: var(--main-color-strong);
 }
 /* ============= product.html   section-singleProduct ================= */
 /* ===================== RWD ======================== */
@@ -1870,6 +1869,7 @@ input[type="search"]::-webkit-search-cancel-button {
     .discount-banner .content {
         padding: 15px 35px;
         margin: auto;
+        width: 80%;
     }
     .cart-table img {
         width: 50px;
