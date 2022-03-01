@@ -90,6 +90,7 @@
 
 <script>
 import Progressbar from '@/components/Progressbar.vue'
+import goTop from '@/methods/goTop'
 
 export default {
   data () {
@@ -121,6 +122,9 @@ export default {
         this.$httpMessageState(err, status)
       })
     }
+  },
+  mounted () {
+    goTop()
   }
 }
 </script>

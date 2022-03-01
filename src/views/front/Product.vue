@@ -27,8 +27,8 @@
             {{ pre.title }}
           </a>
           <a  class="btn-more" @click.prevent="changeProduct(next.id)">
-            <i class="fas fa-angle-double-left"></i>
             {{ next.title }}
+            <i class="fas fa-angle-double-right"></i>
           </a>
         </div>
       </div>

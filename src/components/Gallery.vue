@@ -12,7 +12,7 @@
           <div id="btn-close" class="fas fa-times" @click="hide"></div>
           <div class="flex">
             <div
-              class="lightbox-navigation"
+              class="lightbox-navigation pre"
               @click.stop="prePage"
               :class="{ invisible: !hasPre() }"
             >
@@ -22,7 +22,7 @@
               <img :src="galleryImages[index].url" />
             </div>
             <div
-              class="lightbox-navigation"
+              class="lightbox-navigation next"
               @click.stop="nextPage"
               :class="{ invisible: !hasNext() }"
             >

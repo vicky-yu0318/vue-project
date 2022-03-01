@@ -138,13 +138,9 @@
       <div class="content">
         <p>
           <span>品牌理念 </span>  ipsum dolor sit amet consectetur adipisicing elit.
-          Aliquid, inventore rem vero iusto fuga sit animi ipsum tempora amet
-          neque ea earum numquam a magni debitis quibusdam esse. Corporis, sint!
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          cum odio repellat itaque neque et veniam aperiam sequi at pariatur,
+          Aliquid, m aperiam sequi at pariatur,
           mollitia soluta illum ratione aut necessitatibus iste accusamus
-          dignissimos alias enim praesentium quibusdam laudantium! Provident
-          asperiores eos laudantium aliquid omnis.
+          dignissimos alias enim praesentium quibusm aliquid omnis.
         </p>
       </div>
     </div>
@@ -292,14 +288,14 @@ export default {
           url: 'https://upload.cc/i1/2022/02/11/CRMLXj.jpg',
           title: '嚴選食材',
           subtitle: '安心保證',
-          content: '茶葉來自天然無污染的茶園，採用頂級PET茶包，並通過台灣嚴格檢驗。我們擁有獨自的茶園、茶農及一流的製茶師傅。從茶園管理、採茶、製茶一貫作業，並且不斷提升茶葉品質。讓消費者能享受每一口茶為Pure經營理念。',
+          content: '茶葉來自天然無污染的茶園，採用頂級PET茶包，並通過台灣嚴格檢驗。我們擁有獨自的茶園、茶農及一流的製茶師傅。從茶園管理、採茶、製茶一貫作業，並且不斷提升茶葉品質。讓消費者能享受每一口茶為 PURE 經營理念。',
           id: '1'
         },
         {
           url: 'https://upload.cc/i1/2022/02/11/qM8t96.jpg',
           title: '滴滴回甘',
           subtitle: '就像現淬',
-          content: 'Pure 重新定義了喝茶文化，將「茶文化」輕鬆且有態度的融入生活當中，用各種形式讓人感受茶的魅力，啟發生活靈感。',
+          content: 'PURE 重新定義了喝茶文化，將「茶文化」輕鬆且有態度的融入生活當中，用各種形式讓人感受茶的魅力，啟發生活靈感。',
           id: '2'
         },
         {
