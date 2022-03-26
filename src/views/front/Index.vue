@@ -128,7 +128,7 @@
     class="section section-introduction"
     id="section-introduction"
     style="
-      background: url(https://upload.cc/i1/2022/02/08/mXN7nS.jpg);
+      background: url(https://upload.cc/i1/2022/03/19/FblsnO.jpg);
       background-attachment: fixed;
       background-size: cover;
       background-position: center;

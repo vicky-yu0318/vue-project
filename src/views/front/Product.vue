@@ -39,7 +39,8 @@
           <router-link to="/products"> <span> {{ product.category }} </span> </router-link>
         </p>
         <h2>{{ product.title }}</h2>
-        <span class="price"> {{ $filters.toCurrency(Number(product.price)) }}</span>
+        <span class="price" v-if="product.price">
+          {{  $filters.toCurrency(product.price) }}</span>
         <div class="buyqua">
           <input type="number" min="1" max="99" v-model="qty"/>
           <button class="btn-main" @click="addToCart(product, qty)">
@@ -195,8 +196,8 @@ export default {
           this.product = res.data.product
           goTop()
           this.selectImageUrl = this.product.imageUrl
-          this.isLoading = false
           this.getProducts()
+          this.isLoading = false
         }
       }).catch((err) => {
         this.$httpMessageState(err, '取產品')

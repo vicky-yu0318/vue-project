@@ -13,7 +13,11 @@
     --main-color-active: rgba(11, 119, 112, 0.781);
     --main-color-strong: #244d4d;
     --side-color: goldenrod;
+    /* #F5CE4F */
     --side-color-active: rgb(231, 180, 52);
+    /* rgb(231, 180, 52) */
+    --third-color: #9DCDCD;
+    /* #9DCDCD */
 }
 html {
     scroll-behavior: smooth;
@@ -48,7 +52,7 @@ input:out-of-range {
 }
 .main-title {
     font-size: 35px;
-    color: var(--main-color);
+    color: var(--main-color-strong);
     margin-bottom: 30px;
     display: inline-block;
     padding: 0 30px;
@@ -58,11 +62,11 @@ input:out-of-range {
     content: '';
     position: absolute;
     height: 65%;
-    background-color: var(--main-color);
+    background-color: var(--main-color-active);
     width: 8px;
     right: 8px;
     top: 10px;
-    box-shadow: 0px 0 0px 0 var(--main-color),
+    box-shadow: 0px 0 0px 0 var(--main-color-active),
                 13px 0 0px 0 var(--main-color-active);
 }
 .main-title span {
@@ -401,7 +405,7 @@ input[type="search"]::-webkit-search-cancel-button {
     position: absolute;
     right: -15px;
     top: -10px;
-    background-color: #fa0;
+    background-color: var(--side-color);
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -423,7 +427,7 @@ input[type="search"]::-webkit-search-cancel-button {
 #btn-goTop {
     width: 40px;
     height: 40px;
-    background-color: var(--main-color);
+    background-color: var(--third-color);
     border-radius: 5px;
     position: fixed;
     top: -50px;
@@ -517,7 +521,7 @@ input[type="search"]::-webkit-search-cancel-button {
     padding-bottom: 0;
 }
 .section-home .slide {
-    min-height: 70vh;
+    min-height: 80vh;
     background-size: cover !important;
     background-position:  center !important;
     position: relative;
@@ -566,7 +570,8 @@ input[type="search"]::-webkit-search-cancel-button {
     animation: fadeIn .5s cubic-bezier(.55,1.4,.65,1.35) .4s backwards;
 }
 .section-home .slide .content .btn-main {
-    background-color: var(--main-color-strong);
+    background-color: var(--side-color);
+    box-shadow: 5px 5px 20px var(--side-color-active);
     animation: fadeIn .5s cubic-bezier(.55,1.4,.65,1.35) .6s backwards;
 }
 .section-home .swiper-button-prev,
@@ -574,7 +579,7 @@ input[type="search"]::-webkit-search-cancel-button {
     box-shadow:  1px 2px 6px 4px rgb(53 57 68 / 20%);
     background-color: #fff;
     font-weight: 600;
-    color: var(--main-color);
+    color: var(--side-color);
     width: 60px;
     height: 60px;
     transition: .2s linear;
@@ -588,7 +593,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 .section-home .swiper-button-prev:hover,
 .section-home .swiper-button-next:hover {
-    background-color: var(--main-color);
+    background-color: var(--side-color);
 }
 .section-home:hover .swiper-button-prev,
 .section-home:hover .swiper-button-next {
@@ -608,7 +613,7 @@ input[type="search"]::-webkit-search-cancel-button {
     letter-spacing: 3px;
 }
 .section-home .swiper-pagination .swiper-pagination-bullet{
-  background-color: var(--main-color);
+  background-color: var(--side-color);
   width: 10px;
   height: 10px;
 }
@@ -657,7 +662,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .section-introduction .content:after {
     content: '';
     position: absolute;
-    background-color: #fa0;
+    background-color: var(--third-color);
     width: 60px;
     height: 60px;
     left: -10px; top: -10px;
@@ -667,7 +672,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .section-introduction .content:before {
     content: '';
     position: absolute;
-    background-color: #fa0;
+    background-color: var(--third-color);
     width: 60px;
     height: 60px;
     right: -10px; bottom: -10px;
@@ -777,7 +782,7 @@ input[type="search"]::-webkit-search-cancel-button {
     color: var(--main-color);
 }
 .section-preview .preview .stars i {
-    color: goldenrod;
+    color: var(--side-color);
 }
 .section-preview .preview p {
     color: var(--light-color);
@@ -963,7 +968,7 @@ input[type="search"]::-webkit-search-cancel-button {
     padding-bottom: 10px;
 }
 .section-about .content .txt h3 {
-    color: var(--main-color);
+    color: var(--main-color-strong);
     font-size: 40px;
     display: block;
     padding-bottom: 10px;
@@ -1298,7 +1303,7 @@ input[type="search"]::-webkit-search-cancel-button {
     color: #ddd;
 }
 .footer .item-group .item a:hover {
-    color: goldenrod;
+    color: var(--side-color);
 }
 .footer .item-group .item a i {
     padding-right: 7px;
@@ -1326,7 +1331,7 @@ input[type="search"]::-webkit-search-cancel-button {
     border: none;
     font-size: 15px;
     padding: 8px 5px;
-    background-color: goldenrod;
+    background-color: var(--side-color);
 }
 /* ================= index.html footer ==================== */
 /* ============= RWD ============== */
@@ -1747,10 +1752,12 @@ input[type="search"]::-webkit-search-cancel-button {
     color: var(--main-color);
 }
 .discount-banner {
-  background: linear-gradient(130deg, transparent 65%, #eee 65%),
-    url(https://upload.cc/i1/2022/02/16/6IMOwb.jpg) no-repeat;
+  background: linear-gradient(130deg, transparent 65%, #244d4d 65%),
+    url(https://upload.cc/i1/2022/03/19/V3bM1f.jpg) no-repeat;
   position: relative;
   display: flex;
+  background-position: left bottom;
+  min-height: 350px;
   align-items: center;
   padding: 30px 60px ;
 }
@@ -2079,7 +2086,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .lightbox .lightbox-navigation {
     margin: 0 20px;
     cursor: pointer;
-    background-color: #fa0;
+    background-color: var(--side-color);
     border-radius: 5px;
 }
 .lightbox .lightbox-navigation i {
@@ -2136,7 +2143,8 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 /* animaiton start */
 .accordion-wrap .accordion.active .accordion-heading {
-    background-color: rgb(85, 95, 83, .4);
+    /* background-color: rgb(85, 95, 83, .4); */
+    background-color: #C1C1C1;
 }
 .accordion-wrap .accordion.active .accordion-heading span {
     background-color: #aaa;
@@ -2157,13 +2165,13 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 .accordion-wrap .accordion.active .accordion-content::before {
     content: '';
-    width: 10px;
+    width: 5px;
     height: 100%;
-    background-color: #fa0;
+    background-color: var(--side-color-active);
     position: absolute;
     left: 0;
     top: 0;
-    box-shadow: 15px 0 0 goldenrod;
+    box-shadow: 8px 0 0 var(--side-color);
 }
 /* animaiton end */
 .accordion-wrap .accordion .accordion-heading {
@@ -2333,7 +2341,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 .section-notFound .btn-main {
   padding: 10px 15px;
-  background-color: goldenrod;
+  background-color: var(--side-color);
   outline: none;
   border: none;
   border-radius: 10px;
