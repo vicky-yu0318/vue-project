@@ -17,10 +17,9 @@ Demo：[https://vicky-yu0318.github.io/vue-project/#/](https://vicky-yu0318.gith
 * 開發後台管理系統
 
 ### 前台功能
-* 電商展示：首頁、商品列表、商品介紹等
+* 電商展示：首頁、商品列表、單一商品介紹、觀察清單
 * 購物車：刪除、修改商品、使用優惠券
-* 優惠券
-* 結帳
+* 結帳：優惠券
 
 ### 後台功能
 * 管理者登入
@@ -52,6 +51,14 @@ Demo：[https://vicky-yu0318.github.io/vue-project/#/](https://vicky-yu0318.gith
 ![Image](https://upload.cc/i1/2022/04/23/EjN8U9.png)
 
 <br>
+
+
+### 產品列表- 分類 / 搜尋
+
+![Image](https://upload.cc/i1/2022/04/23/wLS8Vc.png)
+
+<br>
+
 
 
 ### 單一產品呈現 / 上下一個產品按鈕/ 隨機推薦同類商品
