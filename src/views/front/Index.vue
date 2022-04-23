@@ -137,10 +137,7 @@
     <div class="container">
       <div class="content">
         <p>
-          <span>品牌理念 </span>  ipsum dolor sit amet consectetur adipisicing elit.
-          Aliquid, m aperiam sequi at pariatur,
-          mollitia soluta illum ratione aut necessitatibus iste accusamus
-          dignissimos alias enim praesentium quibusm aliquid omnis.
+          <span>品牌理念 </span>  「活在當下」的意義是什麼呢？是仔細欣賞、品味每個「相遇」—— 時光不逆流，深刻的瞬間砌成真實生活，這樣的哲學，讓我們從一杯單品茶開始，舉杯敬賀「當下」的香甘韻，明辨舌尖心頭的幸運，感受「此刻此地・獨一無二」的美好滋味。
         </p>
       </div>
     </div>
@@ -200,8 +197,7 @@
             <i class="fas fa-cookie-bite"></i>
             <h3>搭配甜點</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse,
-              ullam?
+              分享甜食的時刻，茶是最重要的配角！花點心思選對茶，就能讓茶與甜點交織出的美味晉升到另一個層次
             </p>
             <router-link to="/product/-MvbZAtrICmL5LyLAPZ-" class="btn"
               >首選茶款</router-link>
@@ -216,8 +212,7 @@
             <i class="fas fa-book"></i>
             <h3>閱讀提神</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse,
-              ullam?
+              研究指出茶葉中的抗氧化物質-兒茶素，可使大腦思緒清晰，活化大腦的記憶力及認知能力，使人在工作時更容易專注，效率提升。
             </p>
             <router-link to="/product/-MvgGSRjeYuppS25l3N_" class="btn"
               >首選茶款</router-link
@@ -233,8 +228,7 @@
             <i class="fas fa-mug-hot"></i>
             <h3>天氣微涼最好陪伴</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse,
-              ullam?
+              天氣微涼喝熱茶不但能起到保暖的作用，更能滋養氣色。茶中富含著大量的蛋白質，可以養精蓄銳，增強人體抵抗力。
             </p>
             <router-link to="/product/-MvgETWZOrBtBps8I_a6" class="btn"
               >首選茶款</router-link

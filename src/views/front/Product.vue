@@ -50,10 +50,7 @@
 
         <div class="description-title">產品內容</div>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
-          repellat assumenda architecto? Eius accusantium eaque velit nisi autem
-          harum repellendus a. Et impedit ipsum magnam optio minus modi, ullam
-          recusandae?
+          難以言喻的清冽雲霧山香，口感非常細緻甘甜，最令我們驚艷讚嘆的，是超乎常理的圓潤口感… 帶木質調的獨特清香，就像在品嚐香水一樣，不論怎麼久浸都不會苦澀！
         </p>
       </div>
     </div>
@@ -65,17 +62,14 @@
         <h3>注意事項</h3>
         <ul class="notice-list">
           <li>
-            <i class="fab fa-envira"></i>Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Mollitia, minus fuga dolor aut modi nisi
-            necessitatibus eligendi aspernatur eveniet dicta!
+            <i class="fab fa-envira"></i>泡茶用水特別關鍵，如果水不行，再好的茶也呈現不出好的滋味。泡茶一般選擇弱酸性水純淨水。
+
           </li>
           <li>
-            <i class="fab fa-envira"></i>orem ipsum dolor sit amet consectetur
-            adipisicing elit. Mollitia, min
+            <i class="fab fa-envira"></i>沏茶時動作要輕柔而穩重，倒開水也有講究，把茶壺上下拉三次，即行家所說的“鳳凰三點頭”，有助於使杯中茶葉能均勻地吸水。
           </li>
           <li>
-            <i class="fab fa-envira"></i>ojrem ipsum dolor sit amet consectetur
-            adipisicing elit. Mollitia, min
+            <i class="fab fa-envira"></i>收到訂單後2-3個工作天內會出貨。
           </li>
         </ul>
       </div>
@@ -90,8 +84,7 @@
       <div class="content">
         <h3>經典茶款7折起</h3>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
-          obcaecati?
+          春季限時回饋-輸入折扣碼「30discount」可享7折限量優惠
         </p>
         <router-link to="/products" class="btn-main">更多產品</router-link>
       </div>

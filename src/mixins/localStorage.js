@@ -1,3 +1,4 @@
+// import emitter from '@/methods/eventBus'
 export default {
   methods: {
   // 存檔save:
@@ -21,6 +22,7 @@ export default {
       }
       this.save(this.myFavorite)
       this.emitter.emit('update-favorite')
+      // emitter.emit('update-favorite')
     }
   },
   inject: ['emitter'],
