@@ -3,7 +3,7 @@ Demo：[https://vicky-yu0318.github.io/vue-project/#/](https://vicky-yu0318.gith
 
 
 ## 設計概念
-**創作理念：** 享受茶香及優雅品茶<br>
+**創作理念：** 隔著屏幕也可以感受到茶香及優雅視覺感<br>
 
 **主要風格：** 輕鬆、時尚、純淨<br>
 
@@ -20,7 +20,7 @@ Demo：[https://vicky-yu0318.github.io/vue-project/#/](https://vicky-yu0318.gith
 * 電商展示： 商品呈列、觀察清單
 * 購物車 / 結帳： 修改購物車內容、使用優惠券
 * 管理者登入
-* 後台商品、優惠券、訂單管理 (CRUD)
+* 後台管理：後台商品上架、優惠券、訂單管理 (CRUD)
 
 
 ## 使用技術
