@@ -632,7 +632,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 /* =========== index.html  section-introdcution ==========*/
 .section-introduction {
-    background-image: url('https://upload.cc/i1/2022/02/08/mXN7nS.jpg');
+    /* background-image: url(@/assets/images/fix.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1755,10 +1755,11 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 .discount-banner {
   background: linear-gradient(130deg, transparent 65%, #244d4d 65%),
-    url(https://upload.cc/i1/2022/03/19/V3bM1f.jpg) no-repeat;
+    url(https://i.postimg.cc/85Q4MPHq/cart-banner.jpg) no-repeat;
   position: relative;
   display: flex;
-  background-position: left bottom;
+  background-size: cover;   
+  background-position: left center;
   min-height: 350px;
   align-items: center;
   padding: 30px 60px ;
@@ -2013,7 +2014,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .section-gallery {
     position: relative;
     text-align: center;
-    background-image: url('https://upload.cc/i1/2022/02/06/Ehktvl.png');
+    background-image: url('https://i.postimg.cc/gkGxrwCf/banner-bg.jpg');
 }
 .section-gallery .item-group {
     display: flex;
@@ -2131,7 +2132,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 /* ============ question.html   section-question =========== */
 .section-question {
-    background: url('https://upload.cc/i1/2022/02/11/NIcj71.jpg') no-repeat;
+    background: url('https://i.postimg.cc/xdqhtCL8/question-bg.jpg') no-repeat;
     background-position: center bottom;
     background-size: cover;
     min-height: calc(100vh - 150px);

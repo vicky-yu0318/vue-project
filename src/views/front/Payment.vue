@@ -43,7 +43,7 @@
             <h3 class="title">信用卡付款資料</h3>
             <div class="input-field">
               <span>信用卡付款</span>
-              <img src="https://upload.cc/i1/2022/02/06/NPJZT9.png" alt="" />
+              <img src="@/assets/images/credit.png" alt="" />
             </div>
             <div class="input-field">
               <span>信用卡號碼</span>

@@ -10,7 +10,7 @@
         <label for="">密碼</label>
         <input type="password" id="password" v-model="user.password">
       </div>
-      <input type="submit" @click="login">
+      <input type="submit" @click.prevent="login">
     </div>
   </section>
 </template>

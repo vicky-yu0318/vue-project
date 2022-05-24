@@ -74,7 +74,7 @@
         </ul>
       </div>
       <div class="image">
-        <img src="https://upload.cc/i1/2022/02/26/MfeoQn.jpg" alt="" />
+        <img src="@/assets/images/contact.jpg" alt="" />
       </div>
     </div>
   </section>
@@ -127,7 +127,7 @@
               <a @click="addToCart(item)" class="fas fa-shopping-cart"></a>
             </div>
           </SwiperSlide>
-          <img src="https://upload.cc/i1/2022/02/21/cEFly5.png" class="stand" />
+          <img src="@/assets/images/stand.png" class="stand" />
         </Swiper>
       </div>
     </div>

@@ -88,6 +88,7 @@ export default {
   watch: {
     coupon () {
       this.tempCoupon = this.coupon
+      // 時間戳變13碼 => 標準時間 => 陣列。
       const dateAndTime = new Date(this.tempCoupon.due_date * 1000)
         .toISOString().split('T')
       this.due_date = dateAndTime[0]

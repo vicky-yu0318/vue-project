@@ -16,13 +16,26 @@
       :pagination="{ clickable: true }"
       loop
     >
+      <!-- <SwiperSlide
+        data-swiper-autoplay="6000"
+        class="slide swiper-slide"
+        style="background: url('https://i.postimg.cc/7P0JGLv3/img-header02.jpg') no-repeat"
+      >
+        <div class="content">
+          <span> 恬淡風味，為日常生活帶來味蕾慢旅 </span>
+          <h2>經典茶</h2>
+          <router-link to="/products" class="btn-main"
+            >前往茶鄉之旅</router-link
+          >
+        </div>
+      </SwiperSlide> -->
       <SwiperSlide
         v-for="item in bannerImages"
         :key="item"
         data-swiper-autoplay="6000"
         class="slide swiper-slide"
         :style="`background: url(${item.url}) no-repeat`"
-      >
+        >
         <div class="content">
           <span> {{ item.subTitle }} </span>
           <h2>{{ item.title }}</h2>
@@ -31,6 +44,7 @@
           >
         </div>
       </SwiperSlide>
+
     </Swiper>
   </section>
 
@@ -128,7 +142,7 @@
     class="section section-introduction"
     id="section-introduction"
     style="
-      background: url(https://upload.cc/i1/2022/03/19/FblsnO.jpg);
+      background: url('https://i.postimg.cc/1zT1D6nJ/fix.jpg');
       background-attachment: fixed;
       background-size: cover;
       background-position: center;
@@ -191,7 +205,7 @@
       <div class="item-group">
         <div class="item">
           <div class="image">
-            <img src="https://upload.cc/i1/2022/02/21/tqk4K6.jpg" alt="" />
+            <img src="@/assets/images/img-final01.jpg" alt="" />
           </div>
           <div class="content">
             <i class="fas fa-cookie-bite"></i>
@@ -206,7 +220,7 @@
 
         <div class="item">
           <div class="image">
-            <img src="https://upload.cc/i1/2022/02/21/qUaFEX.jpg" alt="" />
+            <img src="@/assets/images/img-final03.jpg" alt="" />
           </div>
           <div class="content">
             <i class="fas fa-book"></i>
@@ -222,7 +236,7 @@
 
         <div class="item">
           <div class="image">
-            <img src="https://upload.cc/i1/2022/02/21/ycphxK.jpg" alt="" />
+            <img src="@/assets/images/img-final02.jpg" alt="" />
           </div>
           <div class="content">
             <i class="fas fa-mug-hot"></i>
@@ -267,33 +281,33 @@ export default {
       },
       bannerImages: [
         {
-          url: 'https://upload.cc/i1/2022/02/08/opMdXO.jpg',
+          url: 'https://i.postimg.cc/7P0JGLv3/img-header02.jpg',
           subTitle: '恬淡風味，為日常生活帶來味蕾慢旅',
           title: '經典茶'
         },
         {
-          url: 'https://upload.cc/i1/2022/02/08/bSh92D.jpg',
+          url: 'https://i.postimg.cc/J4XDX493/img-header01.jpg',
           subTitle: '精心淬鍊，值得細細品嚐',
           title: '精粹茶'
         }
       ],
       aboutDatas: [
         {
-          url: 'https://upload.cc/i1/2022/02/11/CRMLXj.jpg',
+          url: 'https://i.postimg.cc/8CFMyQcN/about01.jpg',
           title: '嚴選食材',
           subtitle: '安心保證',
           content: '茶葉來自天然無污染的茶園，採用頂級PET茶包，並通過台灣嚴格檢驗。我們擁有獨自的茶園、茶農及一流的製茶師傅。從茶園管理、採茶、製茶一貫作業，並且不斷提升茶葉品質。讓消費者能享受每一口茶為 PURE 經營理念。',
           id: '1'
         },
         {
-          url: 'https://upload.cc/i1/2022/02/11/qM8t96.jpg',
+          url: 'https://i.postimg.cc/5N00556M/about02.jpg',
           title: '滴滴回甘',
           subtitle: '就像現淬',
           content: 'PURE 重新定義了喝茶文化，將「茶文化」輕鬆且有態度的融入生活當中，用各種形式讓人感受茶的魅力，啟發生活靈感。',
           id: '2'
         },
         {
-          url: 'https://upload.cc/i1/2022/02/11/d4FCZq.jpg',
+          url: 'https://i.postimg.cc/vmGC9hZr/about03.jpg',
           title: '獨特風味',
           subtitle: '淡雅清香',
           content: '經典茶葉散發著優雅香氣，應用頂級配料，以感受多層次蔓延的絕佳風味',
@@ -305,19 +319,19 @@ export default {
       aboutCurrentId: '1',
       galleryImages: [
         {
-          url: 'https://upload.cc/i1/2022/02/06/He2UyC.jpg',
+          url: 'https://i.postimg.cc/J0VHnsR2/img-lightbox03.jpg',
           txt: '茶園環境'
         },
         {
-          url: 'https://upload.cc/i1/2022/02/06/LGeAB7.jpg',
+          url: 'https://i.postimg.cc/FRf01t37/img-lightbox02.jpg',
           txt: '用心灌溉'
         },
         {
-          url: 'https://upload.cc/i1/2022/02/06/NPDLCO.jpg',
+          url: 'https://i.postimg.cc/J7f5DhTm/img-lightbox01.jpg',
           txt: '新鮮原粹'
         },
         {
-          url: 'https://upload.cc/i1/2022/02/06/fO3LQw.jpg',
+          url: 'https://i.postimg.cc/tRN4PSkT/img-lightbox04.jpg',
           txt: '獻給特別的您'
         }
       ],
