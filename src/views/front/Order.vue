@@ -102,7 +102,7 @@ export default {
           this.getOrder()
           setTimeout(() => {
             this.$router.push('/')
-          }, 15000)
+          }, 25000)
         } else {
           this.$httpMessageState(res, status)
         }
