@@ -281,12 +281,12 @@ export default {
       },
       bannerImages: [
         {
-          url: 'https://i.postimg.cc/7P0JGLv3/img-header02.jpg',
+          url: 'https://i.postimg.cc/k52RTp4M/img-header02.jpg',
           subTitle: '恬淡風味，為日常生活帶來味蕾慢旅',
           title: '經典茶'
         },
         {
-          url: 'https://i.postimg.cc/J4XDX493/img-header01.jpg',
+          url: 'https://i.postimg.cc/PfgyY1S8/img-header01.jpg',
           subTitle: '精心淬鍊，值得細細品嚐',
           title: '精粹茶'
         }
